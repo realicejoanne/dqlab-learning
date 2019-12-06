@@ -1,2 +1,4 @@
-# dqlab-learning
-Currently learning " Introduction to Data Science with R" course. 
+# DQLab Academy
+Pusat Belajar Data Science Online untuk melahirkan praktisi data yang bisa memberikan dampak.
+
+Go to: https://www.dqlab.id
