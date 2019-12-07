@@ -1,31 +1,25 @@
 # Introduction to Data Science with R
 
 ## Data Scientist dan R
-Halo, selamat datang di course perkenalan DQLab yang menandai perjalanan Anda sebagai Data Scientist! <br/>
-Data Scientist sendiri adalah profesi yang sangat menjanjikan saat ini, dimana Anda akan merubah data-data yang sebelumnya tidak kelihatan berguna menjadi informasi yang berharga. <br/>
-Untuk mewujudkan hal itu, seorang data scientist tetap memerlukan suatu software yang penggunaan cukup simpel namun kuat (_simple but powerful_). <br/>
-Nah, software tersebut dinamakan R yang merupakan software pemrograman untuk data. <br/>
-Mari kita pelajari cari tahu lebih banyak mengenai R di pembelajaran berikutnya.
+Halo, selamat datang di course perkenalan DQLab yang menandai perjalanan Anda sebagai _Data Scientist_! <br/>
+_Data Scientist_ sendiri adalah profesi yang sangat menjanjikan saat ini, dimana Anda akan merubah data-data yang sebelumnya tidak kelihatan berguna menjadi informasi yang berharga. Untuk mewujudkan hal itu, seorang _data scientist_ tetap memerlukan suatu software yang penggunaan cukup simpel namun kuat (_simple but powerful_). Nah, software tersebut dinamakan R yang merupakan software pemrograman untuk data.
 
 ## Apa dan kenapa R?
 R adalah nama sebuah bahasa pemrograman sekaligus software untuk pengolahan data dan grafik. <br/>
 R sangat popular saat ini karena tiga hal berikut: <br/>
-- Banyak pilihan pengolahan data dengan jumlah fitur yang sangat komplit dari grafik sampai machine learning.
+- Banyak pilihan pengolahan data dengan jumlah fitur yang sangat komplit dari grafik sampai _machine learning_.
 - Lebih cepat dipelajari dan dijalankan untuk mengolah data dibandingkan dengan bahasa lain. 
 - R bersifat gratis dan _open source_ yang artinya tidak perlu biaya lisensi yang biasanya sangat mahal untuk software pengolahan data.
 
 ## Perusahaan mana yang sudah menggunakan R?
-"Tidak ada asap tanpa api", demikian suatu peribahasa yang menyatakan tidak ada rumor tanpa ada fakta yang menyertai.
-R sedemikian populer juga disebabkan karena digunakan perusahaan-perusahaan besar dunia. <br/>
-Beberapa diantaranya adalah AirBnB untuk _data science_, Microsoft untuk menambahkan fungsionalitas di produk-produknya, Uber untuk analisa statistik, Facebook untuk _behavior analysis_, dan lain-lain. <br/>
-Klik tombol Next untuk melanjutkan ke bagian berikutnya.
+"Tidak ada asap tanpa api", demikian suatu peribahasa yang menyatakan tidak ada rumor tanpa ada fakta yang menyertai. R sedemikian populer juga disebabkan karena digunakan perusahaan-perusahaan besar dunia. Beberapa diantaranya adalah AirBnB untuk _data science_, Microsoft untuk menambahkan fungsionalitas di produk-produknya, Uber untuk analisa statistik, Facebook untuk _behavior analysis_, dan lain-lain.
 
 ## (Quiz) Kenapa menggunakan R?
 Pilih beberapa jawaban, kenapa banyak Data Scientist di seluruh dunia menggunakan R?
 - [x] Lebih mudah dipelajari
 - [ ] Lebih berkualitas, walaupun mahal
 - [x] Kaya akan fitur
-- [x] Bersifat gratis dan open source
+- [x] Bersifat gratis dan _open source_
 
 ## (Coding) "Hello World"
 Dalam setiap pembelajaran pemograman, memunculkan tulisan "Hello World" sebagai tradisi dunia pada saat mulai belajar programming :)
@@ -48,7 +42,7 @@ Console: <br/>
 ## (Coding) Praktek Angka dan Perhitungan
 Mari kita lanjutkan kembali praktek sederhana dengan R, kali ini Anda diminta untuk melakukan perhitungan sederhana dengan angka dan penjumlahan sederhana. <br/>
 **Tugas Praktek** <br/>
-Ketikkan pada code editor rumus 10 + 7, dan jalankan dengan tombol Run Code. <br/>
+Ketikkan pada Code Editor rumus 10 + 7, dan jalankan dengan tombol Run Code. <br/>
 17 adalah hasil perhitungan dari rumus 10 + 7. Abaikan simbol > dan [1] untuk saat ini.
 
 Code Editor: <br/>
@@ -65,7 +59,7 @@ Console: <br/>
 ## (Coding) Variable dalam R
 Penggunaan variable pada pemrograman sangat penting untuk menampung angka maupun teks di R dengan suatu nama. <br/>
 **Tugas Praktek** <br/>
-Pada Code Editor masukan code untuk membuat variable `a = 5`. Ini artinya variable a diisi dengan angka 5. Selanjutnya tambahkan lagi `print(a)`. Ini digunakan untuk mencetak isi variable a. Klik tombol Run Code dan amati yang dimuncul di console.
+Pada Code Editor masukan code untuk membuat variable `a = 5`. Ini artinya variable a diisi dengan angka 5. Selanjutnya tambahkan lagi `print(a)`. Ini digunakan untuk mencetak isi variable a. Klik tombol Run Code dan amati yang dimuncul di Console.
 
 Code Editor: <br/>
 ```
@@ -102,13 +96,12 @@ Vector adalah suatu struktur data yang dapat menyimpan lebih dari satu data yang
 
 ```c(5, 10, 20)```
 
-Ini artinya Anda menyimpan nilai 5, 10 dan 20 dalam satu struktur. Dan jika Anda ingin menyimpan rangkaian
-angka yang terutut, misalkan angka 1 sampai dengan 20 dapat diketikkan sebagai berikut.
+Ini artinya Anda menyimpan nilai 5, 10 dan 20 dalam satu struktur. Dan jika Anda ingin menyimpan rangkaian angka yang terutut, misalkan angka 1 sampai dengan 20 dapat diketikkan sebagai berikut.
 
 ```c(1:20)```
 
 ## (Coding) Praktek Penggunaan Vector - Bagian Satu
-Ketikkan perintah c(3, 10, 15) pada Code Editor. Klik tombol Run Code dan perhiatikan output yang dihasilkan pada bagian Console. Terlihat perintah c(3, 10, 15) ini membuat tiga rangkaian angka yaitu 3, 10 dan 15 yang disimpan dan ditampilkan bersamaan dalam suatu vector.
+Ketikkan perintah c(3, 10, 15) pada Code Editor. Klik tombol Run Code dan perhatikan output yang dihasilkan pada bagian Console. Terlihat perintah c(3, 10, 15) ini membuat tiga rangkaian angka yaitu 3, 10 dan 15 yang disimpan dan ditampilkan bersamaan dalam suatu vector.
 
 Code Editor: <br/>
 ```
@@ -122,7 +115,7 @@ Console: <br/>
 ```
 
 ## (Coding) Praktek Penggunaan Vector - Bagian Dua
-Selain mengetikkan satu per satu data pada vector, kita juga bisa membuat rangkaian data dengan operator titik dua. Cobalah ketik perintah c(1:5) pada code editor. Klik tombol Run Code dan perhatikan output yang dihasilkan pada bagian Console sebagai berikut. Terlihat perintah c(1:5) membuat vector dengan lima rangkaian angka yang dimulai dari 1 dan diakhiri nilai 5. <br/>
+Selain mengetikkan satu per satu data pada vector, kita juga bisa membuat rangkaian data dengan operator titik dua. Cobalah ketik perintah c(1:5) pada Code Editor. Klik tombol Run Code dan perhatikan output yang dihasilkan pada bagian Console sebagai berikut. Terlihat perintah c(1:5) membuat vector dengan lima rangkaian angka yang dimulai dari 1 dan diakhiri nilai 5. <br/>
 
 Code Editor: <br/>
 ```
@@ -138,9 +131,10 @@ Console: <br/>
 ## (Coding) Menggunakan Fungsi Summary
 Kekuatan di R adalah fungsi analisa yang kaya, salah satunya adalah fungsi bernama summary yang bisa digunakan 
 untuk mensimpulkan data yang lagi kita proses. Cobalah ketik perintah untuk melihat karakteristik dari vector berikut.
-```summary(c(1:5))``` <br/>
-Jalankan dan Anda akan mendapatkan hasil pada Console seperti berikut. Scroll ke bawah untuk penjelasannya. <br/>
-Ini artinya dari vector tersebut terdapat angka paling kecil 1 (Min), angka paling besar 5 (Max), angka rata-rata 3 (Mean), dan angka tengah 3 (Median). Untuk 1st Qu dan 3rd Qu kita abaikan dulu. <br/>
+
+```summary(c(1:5))```
+
+Jalankan dan Anda akan mendapatkan hasil pada Console seperti berikut. Ini artinya dari vector tersebut terdapat angka paling kecil 1 (Min), angka paling besar 5 (Max), angka rata-rata 3 (Mean), dan angka tengah 3 (Median). Untuk 1st Qu dan 3rd Qu kita abaikan dulu.
 
 Code Editor: <br/>
 ```
