@@ -1,7 +1,6 @@
 # Introduction to Data Science with R
 
 ## Data Scientist dan R
-
 Halo, selamat datang di course perkenalan DQLab yang menandai perjalanan Anda sebagai Data Scientist! <br/>
 Data Scientist sendiri adalah profesi yang sangat menjanjikan saat ini, dimana Anda akan merubah data-data yang sebelumnya tidak kelihatan berguna menjadi informasi yang berharga. <br/>
 Untuk mewujudkan hal itu, seorang data scientist tetap memerlukan suatu software yang penggunaan cukup simpel namun kuat (_simple but powerful_). <br/>
@@ -9,7 +8,6 @@ Nah, software tersebut dinamakan R yang merupakan software pemrograman untuk dat
 Mari kita pelajari cari tahu lebih banyak mengenai R di pembelajaran berikutnya.
 
 ## Apa dan kenapa R?
-
 R adalah nama sebuah bahasa pemrograman sekaligus software untuk pengolahan data dan grafik. <br/>
 R sangat popular saat ini karena tiga hal berikut: <br/>
 - Banyak pilihan pengolahan data dengan jumlah fitur yang sangat komplit dari grafik sampai machine learning.
@@ -34,10 +32,12 @@ Dalam setiap pembelajaran pemograman, memunculkan tulisan "Hello World" sebagai 
 Mari kita lakukan hal yang sama untuk R dengan halaman Live Code Editor ini. <br/>
 **Tugas Praktek** <br/>
 Cobalah ketikkan "Hello World" (tulis persis dengan huruf besar, huruf kecil dan tanda kutipnya) pada bagian Code Editor. <br/>
-Klik tombol Run Code untuk menjalankan R dan mengeluarkan hasil di bagian Console. <br/>
+Klik tombol Run Code untuk menjalankan R dan mengeluarkan hasil di bagian Console.
 
 Code Editor: <br/>
-```"Hello World"```
+```
+"Hello World"
+```
 
 Console: <br/>
 ```
@@ -52,7 +52,9 @@ Ketikkan pada code editor rumus 10 + 7, dan jalankan dengan tombol Run Code. <br
 17 adalah hasil perhitungan dari rumus 10 + 7. Abaikan simbol > dan [1] untuk saat ini.
 
 Code Editor: <br/>
-```10+7```
+```
+10+7
+```
 
 Console: <br/>
 ```
@@ -85,7 +87,9 @@ Pada R penggunaan comment adalah dengan mengawali suatu teks dengan tanda '#'. <
 Ketikkan suatu komentar setelah perhitungan matematika `10 + 7 #Ini adalah baris komentar`. Cobalah jalankan dengan Run Code. Dari proses ini kelihatan bahwa comment tidak diproses oleh R, jadi yang ditampilkan hanya hasil perhitungan matematika.
 
 Code Editor: <br/>
-```10 + 7 #Ini adalah baris komentar```
+```
+10 + 7 #Ini adalah baris komentar
+```
 
 Console: <br/>
 ```
@@ -107,7 +111,9 @@ angka yang terutut, misalkan angka 1 sampai dengan 20 dapat diketikkan sebagai b
 Ketikkan perintah c(3, 10, 15) pada Code Editor. Klik tombol Run Code dan perhiatikan output yang dihasilkan pada bagian Console. Terlihat perintah c(3, 10, 15) ini membuat tiga rangkaian angka yaitu 3, 10 dan 15 yang disimpan dan ditampilkan bersamaan dalam suatu vector.
 
 Code Editor: <br/>
-```c(3, 10, 15)```
+```
+c(3, 10, 15)
+```
 
 Console: <br/>
 ```
@@ -119,7 +125,9 @@ Console: <br/>
 Selain mengetikkan satu per satu data pada vector, kita juga bisa membuat rangkaian data dengan operator titik dua. Cobalah ketik perintah c(1:5) pada code editor. Klik tombol Run Code dan perhatikan output yang dihasilkan pada bagian Console sebagai berikut. Terlihat perintah c(1:5) membuat vector dengan lima rangkaian angka yang dimulai dari 1 dan diakhiri nilai 5. <br/>
 
 Code Editor: <br/>
-```c(1:5)```
+```
+c(1:5)
+```
 
 Console: <br/>
 ```
@@ -135,7 +143,9 @@ Jalankan dan Anda akan mendapatkan hasil pada Console seperti berikut. Scroll ke
 Ini artinya dari vector tersebut terdapat angka paling kecil 1 (Min), angka paling besar 5 (Max), angka rata-rata 3 (Mean), dan angka tengah 3 (Median). Untuk 1st Qu dan 3rd Qu kita abaikan dulu. <br/>
 
 Code Editor: <br/>
-```summary(c(1:5))```
+```
+summary(c(1:5))
+```
 
 Console: <br/>
 ```
